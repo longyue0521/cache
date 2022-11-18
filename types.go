@@ -8,7 +8,6 @@ import (
 
 var (
 	ErrKeyNotFound = errors.New("cache: key not found")
-	ErrKeyExpired  = errors.New("cache: key expired")
 )
 
 type Cache interface {
